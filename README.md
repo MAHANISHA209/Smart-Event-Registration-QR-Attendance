@@ -13,25 +13,13 @@ Participant database management
 Attendance report generation
 User-friendly dashboard
 Secure login for organizers
-**Technologies Used**
-
-__Front End__
-
-HTML
-CSS
-JavaScript
-Bootstrap
-
+**Technologies Used**__Front End__
+HTML CSS JavaScript Bootstrap
 __Back End__
-
 PHP / Python / Node.js (depending on implementation)
-
 __Database__
-
 MySQL
-
 __Tools__
-
 QR Code Generator
 QR Code Scanner
 **Modules**
