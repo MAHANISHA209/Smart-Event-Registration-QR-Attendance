@@ -70,6 +70,40 @@ Generates attendance reports and analytics.
    Attendance Summary
    Participant List Export
    Event-wise Attendance Reports
+   
+**Requirements Analysis**
+**Functional Requirements**
+User registration and login.
+Event creation and management by admin.
+Participant registration for events.
+Automatic QR code generation for registered participants.
+QR code scanning for attendance marking.
+Attendance record storage in database.
+View registered participants list.
+Generate attendance reports.
+Prevent duplicate attendance entries.
+Admin dashboard for monitoring events and attendance.
+**Non-Functional Requirements**
+Performance – System should process registrations and attendance quickly.
+Security – User data and attendance records should be protected.
+Reliability – System should function without data loss.
+Usability – Easy-to-use interface for admins and participants.
+Scalability – Support multiple events and users.
+Availability – Accessible whenever required.
+**Hardware Requirements**
+Processor: Intel Core i3 or above
+RAM: 4 GB or above
+Hard Disk: 20 GB free space
+QR Scanner/Smartphone Camera
+Internet Connection
+**Software Requirements**
+Operating System: Windows 10/11
+Front End: HTML, CSS, JavaScript, Bootstrap
+Back End: Java (JSP & Servlets)
+Database: MySQL
+Server: Apache Tomcat 10
+IDE: Eclipse IDE
+Version Control: Git & GitHub
 
 **Benefits**
 
