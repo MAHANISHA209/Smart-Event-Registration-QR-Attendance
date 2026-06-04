@@ -40,48 +40,16 @@ __Tools__
 QR Code Generator
 QR Code Scanner
 
-**Modules**
-
-User Registration Module
-Participants register for events.
-Event Management Module
-Create, edit, and manage events.
-QR Code Generation Module
-Generates a unique QR code for each participant.
-Attendance Management Module
-Scans QR codes and records attendance.
-Database Management Module
-Stores participant and attendance data.
-Report Generation Module
-Generates attendance reports and analytics.
-
 **Features**
 
-**Admin Module**
-
-    Admin Login
-    Create and Manage Events
-    View Registered Participants
-    Track Attendance
-    Generate Attendance Reports
+Online Event Registration – Participants can register for events through a web application.
+Admin Login and Event Management – Admin can create, manage, and monitor events.
+QR Code Generation – A unique QR code is generated for each registered participant.
+QR-Based Attendance Tracking – Attendance is marked quickly by scanning QR codes.
+Participant Management – Admin can view and manage registered participant details.
+Attendance Report Generation – The system generates attendance reports automatically.
+Short Points for PPT
     
-**Participant Module**
-
-    Online Event Registration
-    Receive Unique QR Code
-    View Event Details
-    
-**QR Attendance Module**
-
-   QR Code Generation
-   QR Code Scanning
-   Instant Attendance Marking
-   Duplicate Attendance Prevention
-   Reports Module
-   Attendance Summary
-   Participant List Export
-   Event-wise Attendance Reports
-   
 **Requirements Analysis**
 
 **Functional Requirements**
@@ -123,6 +91,65 @@ Database: MySQL
 Server: Apache Tomcat 10
 IDE: Eclipse IDE
 Version Control: Git & GitHub
+**Users Identification**
+
+**Admin**
+
+Responsibilities:
+
+Login to the system
+Create and manage events
+View registered participants
+Track attendance
+Generate attendance reports
+
+ **Participant/User**
+
+Responsibilities:
+
+Register for events
+View event details
+Receive QR code
+Mark attendance using QR code
+
+**Module Identification**
+
+ **Admin Module**
+
+Functions:
+
+Admin Login
+Create Event
+Manage Event
+View Participants
+Track Attendance
+Generate Reports
+
+ **Participant Module**
+
+Functions:
+
+User Registration
+View Event Details
+Receive QR Code
+Update Profile
+
+**QR Attendance Module**
+
+Functions:
+
+QR Code Generation
+QR Code Scanning
+Attendance Marking
+Prevent Duplicate Attendance
+
+**Report Module**
+
+Functions:
+
+Attendance Report
+Participant Report
+Event-wise Report
 
 **Benefits**
 
