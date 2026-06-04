@@ -25,6 +25,7 @@ User-friendly dashboard
 Secure login for organizers
 
 **Technologies Used**
+
 __Front End__
 HTML CSS JavaScript Bootstrap
 __Back End__
@@ -51,6 +52,7 @@ Report Generation Module
 Generates attendance reports and analytics.
 
 **Features**
+
 **Admin Module**
     Admin Login
     Create and Manage Events
@@ -72,6 +74,7 @@ Generates attendance reports and analytics.
    Event-wise Attendance Reports
    
 **Requirements Analysis**
+
 **Functional Requirements**
 User registration and login.
 Event creation and management by admin.
